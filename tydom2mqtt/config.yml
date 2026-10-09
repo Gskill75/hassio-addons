@@ -3,7 +3,7 @@
 ########## GENERAL SETTINGS ######################################################################################################
 name: tydom2mqtt (Gskill75)
 # No `image`: the Supervisor builds ./Dockerfile locally, from the Gskill75/tydom2mqtt release below
-version: 3.7.0-gskill75.2
+version: 3.7.0-gskill75.3
 slug: tydom2mqtt_gskill75
 description: Deltadore Tydom to MQTT Bridge (Gskill75/tydom2mqtt build)
 # 32-bit architectures (armhf, armv7, i386) are no longer supported by Home Assistant since 2025.12
