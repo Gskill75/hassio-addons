@@ -1,7 +1,7 @@
 FROM python:3.11-alpine3.22
 
 # tydom2mqtt release built from https://github.com/Gskill75/tydom2mqtt
-ARG TYDOM2MQTT_REF=3.7.0-gskill75.3
+ARG TYDOM2MQTT_REF=3.7.0-gskill75.4
 
 LABEL org.opencontainers.image.description="Deltadore Tydom to MQTT Bridge"
 
