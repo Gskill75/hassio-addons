@@ -28,6 +28,9 @@ configuration:
   TYDOM_POLLING_INTERVAL:
     name: Polling interval
     description: Interval in seconds between two polls of the Tydom devices (optional, 300 by default)
+  TYDOM_CONFIG_REFRESH_INTERVAL:
+    name: Configuration refresh interval
+    description: Interval in seconds between two reads of the Tydom configuration, so devices added to the gateway show up without restarting (optional, 3600 by default, 0 disables it)
   MQTT_HOST:
     name: MQTT host
     description: MQTT broker host (optional, core-mosquitto for the Mosquitto broker add-on)

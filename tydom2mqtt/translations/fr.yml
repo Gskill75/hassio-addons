@@ -28,6 +28,9 @@ configuration:
   TYDOM_POLLING_INTERVAL:
     name: Intervalle d'interrogation
     description: Intervalle en secondes entre deux interrogations des appareils Tydom (optionnel, 300 par défaut)
+  TYDOM_CONFIG_REFRESH_INTERVAL:
+    name: Intervalle de relecture de la configuration
+    description: Intervalle en secondes entre deux relectures de la configuration du Tydom, pour faire apparaître les appareils ajoutés sans redémarrer (optionnel, 3600 par défaut, 0 pour désactiver)
   MQTT_HOST:
     name: Adresse du serveur MQTT
     description: Adresse du serveur MQTT (optionnel, core-mosquitto pour le module Mosquitto broker)
